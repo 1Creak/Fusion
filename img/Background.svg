@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 826" width="1920" height="826">
+	<title>Services</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #202020 } 
+	</style>
+	<g id="Services">
+		<path id="Background" class="shp0" d="M0 0.5L1920 0.5L1920 826L0 826L0 0.5Z" />
+	</g>
+</svg>

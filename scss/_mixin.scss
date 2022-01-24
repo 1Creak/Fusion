@@ -1,0 +1,156 @@
+@mixin main__title{
+    font-family: "Merriweather-Light";
+    @media screen and (max-width:1800px) {
+        font-size: calc(19px + 20 * (100vw / 1800));
+    }
+    @media screen and (max-width:400px) {
+        padding: 0;
+    }
+}
+@mixin services{
+    @media screen and(max-width:720px) {
+        flex-direction: column;
+        padding:0 30% 30% 30%;
+        .services__info{
+            padding-top: 30px;
+        }
+    @media screen and (max-width:400px) {
+        padding: 0% 30% 30% 15%;
+    }
+    }
+}
+@mixin title(){
+    width: 700px;
+    font-family: "Merriweather-Light";
+    margin: auto;
+    padding-bottom: 70px;
+    @media screen and (max-width:1800px) {
+        font-size: calc(13px + 20 * (100vw / 1800));
+    }
+    @media screen and (max-width: 1100px) {
+        width: 400px;
+    }
+    @media screen and (max-width: 500px) {
+        width: 200px;
+    }
+}
+@mixin subtitle(){
+    @media screen  and (max-width: 1100px){
+        padding: 0;
+    }
+    font-family: 'OpenSans-SemiBold';
+    text-transform: uppercase;
+    color: #f7ac53;
+    font-size: 14px;
+    padding:20px 0 50px 0;
+}
+
+@mixin arrow-right{
+    @media screen and (max-width: 1300px) {
+        .span__first{
+            padding-bottom: 75px;
+        }
+        & span{
+            display: flex;
+            position: relative;
+            transform: rotate(90deg);
+        }
+        & div {
+            transform: rotateX(90deg);
+         }
+    }
+    @media screen and (max-width: 1100px){
+        display: none;
+    }
+}
+@mixin slider-text{
+    @media screen and (max-width: 1100px){
+    display: none;
+}
+}
+@mixin slider-line{
+    @media screen and (max-width: 1100px) {
+        .project__line{
+            display: none;
+        }
+}
+}
+@mixin remove-line{
+    @media screen and(max-width:1100px) {
+        background:#1c1c1c00;
+    }
+}
+@mixin slider{
+    @media screen and(max-width: 1100px) {
+        // width: 500px;
+        margin: 0;
+    margin:auto;
+    }
+}
+@mixin company{
+    @media screen and(max-width: 1100px) {
+        flex-direction: column;
+    }
+}
+@mixin team{
+    @media screen and (max-width: 800px){
+        grid-template-columns: repeat(2, 1fr);
+}
+}
+@mixin contact{
+    @media screen  and (max-width: 1100px){
+        width: 440px;
+    }
+    @media screen  and (max-width: 600px){
+        width: 200px;
+        gap: 2em;
+        font-size: 12px;
+        input {
+            width: 100px;
+        }
+    }
+}
+@mixin footer-text() {
+    h4{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    @media screen  and (max-width: 500px){
+        margin-right: 0;
+    }
+}
+@mixin footer__minimal{
+    @media screen  and (max-width: 420px){
+        display: block;
+        padding-left: 30%;
+        text-align: center;
+    }
+}
+@mixin footer__img{
+    @media screen  and (max-width: 420px){
+        display: none;
+    }
+}
+@mixin team__img{
+    @media screen and(max-width:400px) {
+        width: 100px;
+        height: 100px;
+    }
+}
+@mixin team__img__small{
+    @media screen and(max-width:400px) {
+        display: none;
+    }
+}
+@mixin services__padding {
+    @media screen and (max-width:400px) {
+        padding: 0% 30% 30% 18%;
+    }
+}
+@mixin footer__bg{
+    @media screen and (max-width:1830px) {
+       background: url(../img/bg.png) no-repeat center; 
+    }
+}

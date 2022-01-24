@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" width="45" height="45">
+	<title>Homepage</title>
+	<defs>
+		<image  width="45" height="45" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAMAAAANxBKoAAAAAXNSR0IB2cksfwAAAPlQTFRF/////rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlg/rlgdB29UAAAAFN0Uk5TAAAqbJ/H5PD/IILdJKL71ZlgORsQCIH4o0ElzyFH8cZCSFX5pAecJs6lBqYj/B1QD/2HoC2I4DyXdxU74StrmOXy7g7YzAwBEQQcnqdAg0ka3ua6x+nhAAAB3UlEQVR4nJXVe1uqQBAG8CFR3sgyUEK0AyZlZVZUp9PVo3a/377/h2kFL+y2JMwf7j76A5dhd4ZoEkoYczk1X9CgFfJqbk6JB3HBvpjXFxCPBX0+URcXl4DSsmGWK0qlbBrLJWBpsSjV1ooNVB3uz50qYOvWT12rA+qqIsaqCtRrov7jwmv8sEPjeHDXeN30sb4hw8xsrMNvxnXDR0tqI9OC35jqmpaII9OCtjnW1ha2k/DIbGPLGukV5OVrnup2Hno0K9qQZiOuyYFdDCc7UJPx5NlU7AyHzi724j/vN8cRxPUeDjpsOMQRdzNtsqf+xjUd4Zh9/sOJoE/Pojjn9AUuibooKYLmrp6+7xK69B+9lLqHHHtWI6U2oJIHM6U24VEf5ZS6jAK5CEQ9uArjWtABXAIUUd/chnEnaEZl905YyTUGmdbdz5iTbPnOZXqX2fYJXeIilWZ78J7oWNjflYdHqY72d+eAPztCjPFTdHZSnstnvIQjO/POTP0KuxbNdHjtGbrt4W10nVVPUavq41pFm1nqYMYaO6N+V4X6TbTGeoM0M8PeMHhXeJ2t77DM6PKe5st62qRf9gzzI1CCD9Po/dIvo178yfXiz196cRhd1ue/XLhfrM93xVx+AzbqNc7BTf3DAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Homepage">
+		<g id="Navigation on home">
+			<use id="fusion" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
